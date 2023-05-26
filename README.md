@@ -9,7 +9,7 @@ api_yamdb
 - Клонировать репозиторий и перейти в него в командной строке:
 
 ```
-git clone git@github.com:esfiro4ka/api_yamdb.git
+git clone git@github.com:JonyMalikov/api_yamdb.git
 
 cd api_yamdb
 ```
@@ -17,7 +17,7 @@ cd api_yamdb
 - Cоздать и активировать виртуальное окружение:
 
 ```
-python3 -m venv venv
+python -m venv venv
 
 source venv/bin/activate
 ```
@@ -25,7 +25,7 @@ source venv/bin/activate
 - Установить зависимости из файла requirements.txt:
 
 ```
-python3 -m pip install --upgrade pip
+python -m pip install --upgrade pip
 
 pip install -r requirements.txt
 ```
@@ -33,13 +33,13 @@ pip install -r requirements.txt
 - Выполнить миграции:
 
 ```
-python3 manage.py migrate
+python manage.py migrate
 ```
 
 - Запустить проект:
 
 ```
-python3 manage.py runserver
+python manage.py runserver
 ```
 
 ## Примеры запросов
